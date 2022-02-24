@@ -37,9 +37,13 @@ html{
     background-color: #FFFFFF;
     margin-left: 15px;
 }
-.button.rev-button{
+.button.black-button{
     color: #FFFFFF;
     background-color: #23272A;
+}
+.button.purple-button{
+    color: #FFFFFF;
+    background-color: #8EA1E1;
 }
 /*intestazione*/
 header{
@@ -118,8 +122,43 @@ nav .accedi{
     padding-top: 10%;
 }
 .text h2{
+    padding-bottom: 25px;
     font-size: 50px;
 }
 .text p{
     line-height: 30px;
+}
+section:nth-child(odd), section:last-child{
+    background-color: #F6F6F6;
+}
+section:nth-last-child(2) .text{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+section:nth-last-child(2) .pic{
+    width: 100%;
+    height: 70%;
+}
+section:nth-last-child(2) .pic img{
+    height: 100%;
+}
+section:last-child{
+    height: 40vh;
+}
+.stars{
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+.stars img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.stars h2{
+    color: #23272A;
+    padding-top: 14%;
+    margin-bottom: 40px;
 }
