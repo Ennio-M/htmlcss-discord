@@ -94,3 +94,32 @@ nav .accedi{
     line-height: 30px;
     margin-bottom: 30px;
 }
+/*sezioni*/
+.page{
+    height: 100vh;
+}
+.pic, .text{
+    height: 100%;
+}
+.pic{
+    width: 60%;
+    position: relative;
+}
+.pic img{
+    width: 100%;
+    position: absolute;
+    top: 10%;
+}
+.text{
+    width: 30%;
+    color: #23272A;
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 10%;
+}
+.text h2{
+    font-size: 50px;
+}
+.text p{
+    line-height: 30px;
+}
